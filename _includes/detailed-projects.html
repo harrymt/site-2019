@@ -1,0 +1,53 @@
+<div class="page-split no-print"></div>
+
+<section class="content-section detailed-projects no-print">
+
+
+
+  <header class="section-header">
+    <h2>Projects</h2>
+  </header>
+
+  {% for c in site.data.projects %}
+
+
+  <div class="resume-item">
+      {% if c.photo %}
+      <div class="col-1-4 resume-project-photo">
+        {% if c.url %}<a href="{{ c.url }}">{% endif %}
+          <img src="img/work/{{c.photo}}" alt="{{c.title}}">
+        {% if c.url %}</a>{% endif %}
+      {% else %}
+      <div class="col-1-4 resume-project-photo resume-project-photo-placeholder">
+        {% if c.url %}<a href="{{ c.url }}">{% endif %}
+          <img src="img/work/placeholder.png" role="presentation">
+        {% if c.url %}</a>{% endif %}
+      {% endif %}
+      </div>
+    <div class="col-1-4">
+      <h3 class="resume-item-title">
+        {% if c.url %}<a href="{{ c.url }}">{% endif %}
+            {{ c.title }}
+        {% if c.url %}</a>{% endif %}
+      </h3>
+      <h4 class="resume-item-details">
+        {{ c.secondary }}
+      </h4>
+      <h5>{{ c.year }}</h5>
+    </div>
+
+    <ul class="summary-bullets col-3-4 project-photo-description">
+      {% for p in c.summary %}
+        <li class="resume-item-copy">{{p | markdownify}}</li>
+      {% endfor %}
+      {% for p in c.detailed %}
+        <li class="resume-item-copy">{{p | markdownify}}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+
+  {% endfor %}
+
+
+</section>

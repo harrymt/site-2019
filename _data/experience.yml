@@ -1,0 +1,66 @@
+# Jobs
+
+- title: OakNorth
+  secondary: Frontend Engineer
+  year: Dec, 2019 &mdash; present
+  type: "full-stack, front-end"
+  summary:
+    - Large financial app. _React, GraphQL (Apollo), Typescript_
+
+- title: Scott Logic
+  secondary: Software Developer
+  year: Aug, 2018 &mdash; Nov, 2019 (1 year, 3 months)
+  type: "full-stack, front-end"
+  summary:
+    - Developed full-stack search app for data analytics firm (kanban team of 8). _NodeJS, Typescript, Elastic Search, React, Styled Components_.
+    - Refactored .Net Core service, applying best practices with migrations, versioning and structure (scrum team of 6). _AWS, C#, .Net core, Moq_.
+    - Wrote adapters to send and receive files for 2 external financial regulatory services (scrum team of 6). _C#, Docker_.
+    - Developing React app for operations team (scrum team of 7). _CSS-In-JS, Material UI, Redux, React, EFCore, C# .Net Core, AWS_.
+    - Integrating with several C# services, writing new features for validating and enriching data. Refactored process for validation rules, writing SpecFlow, integration and Selenium tests (scrum team of 8). _C#, CQL, Python_.
+    - Presented tech talks and wrote blog posts about SOLID design principles, and web performance with over 2k views.
+
+- title: Scott Logic
+  secondary: Graduate Software Developer
+  year: 2018 (6 months)
+  type: "full-stack, front-end"
+  summary:
+    - Designed tool for comparing different big data technologies. Dockerized a Spring (boot) application, deploying to AWS and integrating with Apache Kafka and AWS Kinesis (scrum team of 6). _Docker, AWS, Amazon Kinesis, Apache Kafka, Java 8, Spring Boot, Hibernate, Lombok._
+    - Developed 2 SPA using latest technologies, build tools and high quality standards. _React, Redux, Node.js, JavaScript, Socket.io, Webpack, Babel, Mocha, Selenium e2e tests and unit tests._
+    - Presented technical talks and articles on latest technologies, such as web performance and Node.js.
+
+- title: GWS Media
+  secondary: Web Developer
+  year: 2017 &mdash; 2018 (9 months)
+  type: "full-stack, front-end"
+  summary:
+    - Developed Wordpress, Magento 2, Drupal 6, 7 and 8 custom plugins, themes and designs for 20+ international clients. _LESS, JavaScript, PHP._
+    - Lead developer for international client website redesign, synchronised data with warehouse system producing £1m yearly sales. _Magento 2, Shell scripts, Bootstrap, Jira._
+    - Team lead managing 6 developers, with daily check-ins, support and assigning work. _Communication, Leadership._
+  detailed:
+    - Robotics development for a Pepper robot. Designing user interactions, visual screens and preparing demonstrations. _Python_.
+
+- title: 121 Systems
+  secondary: .NET Developer
+  year: 2014 &mdash; 2015 (11 months)
+  type: "full-stack"
+  summary:
+    - Redesigned custom CMS resulting in faster updating and better usability for marketing department. _ASP.NET, SASS, HTML._
+    - Built interface between courier service and 100+ client hand-held devices, deployed nationally, processing 2k daily requests. _VB.NET._
+
+- title: Barclaycard
+  secondary: QA Test Analyst
+  year: 2014 (1 month)
+  type: ""
+  summary:
+    - Quality Assurance testing intern for the Barclaycard Anywhere Service.
+    - Met go-live milestone performing functional testing with minimal supervision.
+
+- title: Mixd Work in the Web Workshop
+  secondary: Website developer
+  year: 2014 (3 days)
+  type: ""
+  summary:
+    - Intensive workshop for working in the web industry. _SCSS, Bootstrap, Wordpress, Capistrano, Project Management._
+  detailed:
+    - Created responsive Wordpress websites with 1-click deployment. [www.workintheweb.com](//www.workintheweb.com) _AWS._
+    - Learnt how to become a freelance web developer.
